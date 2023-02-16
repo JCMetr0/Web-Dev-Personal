@@ -1,0 +1,30 @@
+
+/* Header */
+
+header{
+    font: size 30px;
+    float: right;
+}
+
+h1{
+    font-size: 30;
+    color: purple;
+}
+
+h2{
+    font-size: 30;
+    color: blueviolet;
+}
+h3{
+    font-size: 30;
+    color: rgb(189, 0, 189);
+}
+
+/* Body */
+body{background-color: black;}
+li{
+    color: azure;
+    
+}
+
+footer{background-color: slategrey;}
