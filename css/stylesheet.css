@@ -1,0 +1,21 @@
+nav{
+
+    max-height: 9.4rem;
+
+}
+
+nav img{
+
+    width: 9.4rem;
+    height: 9.4rem;
+    float: left;
+
+}
+
+nav h2{
+
+    font-family: sans-serif;
+    color: brown;
+    background-color: grey;
+    text-align: left;
+}
