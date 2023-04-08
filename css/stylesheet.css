@@ -1,7 +1,8 @@
 nav{
 
     max-height: 9.4rem;
-
+    margin: 5px 10px;
+    padding: 5px;
 }
 
 nav img{
@@ -14,8 +15,13 @@ nav img{
 
 nav h2{
 
-    font-family: sans-serif;
-    color: brown;
-    background-color: grey;
+    font-family: Arial;
+    color: black;
+    background-color: rgb(255, 242, 221);
     text-align: left;
+    padding: 10px 10px;
+    margin: auto;
+    height: 120px;
+    font-size: 5rem;
+    font-weight: 100;
 }
