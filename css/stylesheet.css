@@ -1,27 +1,165 @@
-nav{
 
-    max-height: 9.4rem;
-    margin: 5px 10px;
-    padding: 5px;
+/****************************************************************
+************************** Tags *********************************
+*****************************************************************/
+
+body{
+    color: black;
+    background-color: whitesmoke;
+    font-family: 'Lato', sans-serif;
 }
 
-nav img{
+/**********************Headers************************/
 
-    width: 9.4rem;
-    height: 9.4rem;
+h2{
+
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+/**********************Navigation*********************/
+
+
+nav{
+   
+    text-align: center;
+    float: right;
+    padding: 10px 0px;
+    margin: 10px 0 0;
+    font-family: 'Lato', sans-serif;
+    margin-left: auto;
+    font-weight: 300;
+    font-size: 1.75em;
+    margin-right: 30px;
+}
+
+nav ul{
+
+	
+	list-style-type:none; /*No bullet points or anything */
+	margin: 0 0px;
+	padding:0;
+	overflow: hidden;
+    position: sticky;
+    top: 0;
+      
+    
+
+}
+nav li{
+
+    display: inline-block;
+    padding: 3px 3px;
+    text-decoration: underline;
+    text-decoration-thickness: 1%;
+    
+}
+
+nav a{
+	
+	padding: 15px 10px;
+	
+}
+
+nav a, nav a:visited {
+	
+	color:#000;
+}
+
+nav a.selected, nav a:hover {
+	
+	color:#000;
+}
+
+
+/************************Body Boxes******************************/
+
+section{
+    float: left;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+aside{
+
+    float: right;
+    margin-left: auto;
+    text-align: center;
+
+}
+/****************************************************************
+************************** IDs **********************************
+*****************************************************************/
+
+#wrapper{
+
+    margin-left: 1px;
+    margin-right: 1px;
+
+
+}
+
+#nav{
+
+    height: 10em;
+    max-height: 10em;
+    background-color: #fff7b2;
+    
+}
+
+#posterimg{
+
+    max-height: 40em;
+    height: 40em;
+    background-color: #55b3e1;
+    text-align: center;
+
+}
+
+#about{
+
+    max-height: 32em;
+    height: 32em;
+    background-color: #aad9ef;
+}
+
+
+#contact{
+
+    height: 24em;
+    max-height: 24em;
+    background-color: #e31e24;
+
+}
+
+#gallery{
+
+background-color: #80594c;
+
+}
+
+/****************************************************************
+************************** Classes ******************************
+*****************************************************************/
+.logo{
+
+    max-width: 10em;
     float: left;
 
 }
 
-nav h2{
+.container{
+    display: flex;
+    flex-direction: row wrap; 
+    align-items: center;
 
-    font-family: Arial;
-    color: black;
-    background-color: rgb(255, 242, 221);
-    text-align: left;
-    padding: 10px 10px;
-    margin: auto;
-    height: 120px;
-    font-size: 5rem;
-    font-weight: 100;
+}
+
+/*Temp*/
+
+p{
+
+    margin: 0px 0px;
+
 }
