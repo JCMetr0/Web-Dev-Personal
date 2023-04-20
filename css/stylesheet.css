@@ -135,8 +135,9 @@ aside{
 
 #gallery{
 
-background-color: #80594c;
-
+    background-color: #80594c;
+    height: 32em;
+    max-height: 32em;
 }
 
 /****************************************************************
