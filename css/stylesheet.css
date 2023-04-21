@@ -15,6 +15,7 @@ h2{
 
     font-size: 2em;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 /**********************Navigation*********************/
@@ -77,7 +78,9 @@ nav a.selected, nav a:hover {
 section{
     float: left;
     margin-right: auto;
-    text-align: center;
+    text-align: center; 
+    width: 50%;
+    max-width: 50%;
 
 }
 
@@ -86,6 +89,8 @@ aside{
     float: right;
     margin-left: auto;
     text-align: center;
+    max-width: 50%;
+    width: 50%;
 
 }
 /****************************************************************
@@ -114,11 +119,19 @@ aside{
     height: 40em;
     background-color: #55b3e1;
     text-align: center;
+    overflow: hidden;
 
 }
 
+#posterimg img{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+
+}
 #about{
 
+    display: flex;
     max-height: 32em;
     height: 32em;
     background-color: #aad9ef;
@@ -127,6 +140,7 @@ aside{
 
 #contact{
 
+    display: flex;
     height: 24em;
     max-height: 24em;
     background-color: #e31e24;
@@ -140,6 +154,12 @@ aside{
     max-height: 32em;
 }
 
+#footer{
+
+    height: 5em;
+    background-color: #55b3e1;
+    max-height: 8em;
+}
 /****************************************************************
 ************************** Classes ******************************
 *****************************************************************/
@@ -164,3 +184,4 @@ p{
     margin: 0px 0px;
 
 }
+
