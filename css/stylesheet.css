@@ -124,6 +124,7 @@ aside{
 }
 
 #posterimg img{
+
     width: 100%;
     max-width: 100%;
     overflow: hidden;
@@ -170,13 +171,20 @@ aside{
 
 }
 
-.container{
+.containernav{
     display: flex;
     flex-direction: row wrap; 
     align-items: center;
 
 }
 
+
+.containercontact{
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+
+}
 /*Temp*/
 
 p{
