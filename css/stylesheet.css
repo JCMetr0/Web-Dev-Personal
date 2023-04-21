@@ -2,7 +2,10 @@
 /****************************************************************
 ************************** Tags *********************************
 *****************************************************************/
-
+html {
+    scroll-behavior: smooth;
+  }
+  
 body{
     color: black;
     background-color: whitesmoke;
@@ -16,6 +19,7 @@ h2{
     font-size: 2em;
     margin-left: 20px;
     margin-right: 20px;
+    color: #000;
 }
 
 /**********************Navigation*********************/
@@ -78,7 +82,7 @@ nav a.selected, nav a:hover {
 section{
     float: left;
     margin-right: auto;
-    text-align: center; 
+    text-align: left; 
     width: 50%;
     max-width: 50%;
 
@@ -109,7 +113,6 @@ aside{
 
     height: 10em;
     max-height: 10em;
-    background-color: #fff7b2;
     
 }
 
@@ -145,6 +148,7 @@ aside{
     height: 24em;
     max-height: 24em;
     background-color: #e31e24;
+    
 
 }
 
@@ -182,14 +186,23 @@ aside{
 .containercontact{
     display: flex;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.75em;
+
+
+}
+
+.sectionleft{
+
+    text-align: left;
+    margin-left: 20px;
 
 }
 /*Temp*/
 
 p{
 
-    margin: 0px 0px;
+    margin: 0px 2px;
+
 
 }
 
