@@ -10,6 +10,7 @@ body{
     color: black;
     background-color: whitesmoke;
     font-family: 'Lato', sans-serif;
+    min-height: 100vh;
 }
 
 /**********************Headers************************/
@@ -153,17 +154,19 @@ aside{
 }
 
 #gallery{
-
+    
     background-color: #80594c;
     height: 32em;
     max-height: 32em;
 }
 
 #footer{
-
+    display: flex;
     height: 5em;
     background-color: #55b3e1;
-    max-height: 8em;
+    max-height: 5em;
+    flex-direction: column;
+    margin-top: 0;
 }
 /****************************************************************
 ************************** Classes ******************************
