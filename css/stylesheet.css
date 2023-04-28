@@ -154,19 +154,21 @@ aside{
 }
 
 #gallery{
-    
+    display: flex;
     background-color: #80594c;
-    height: 32em;
-    max-height: 32em;
+    height: 100em !important; 
+    max-height: 500em;
 }
 
 #footer{
     display: flex;
-    height: 5em;
+    height: 50px;
     background-color: #55b3e1;
     max-height: 5em;
     flex-direction: column;
-    margin-top: 0;
+    bottom: 0;
+    position: sticky;
+    
 }
 /****************************************************************
 ************************** Classes ******************************
