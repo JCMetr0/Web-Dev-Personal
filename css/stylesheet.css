@@ -9,7 +9,7 @@ html {
 body{
     color: black;
     background-color: whitesmoke;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     min-height: 100vh;
 }
 
@@ -32,7 +32,7 @@ nav{
     float: right;
     padding: 10px 0px;
     margin: 10px 0 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     margin-left: auto;
     font-weight: 300;
     font-size: 1.75em;
@@ -158,6 +158,8 @@ aside{
     background-color: #80594c;
     height: 100em !important; 
     max-height: 500em;
+
+
 }
 
 #footer{
@@ -165,10 +167,20 @@ aside{
     height: 50px;
     background-color: #55b3e1;
     max-height: 5em;
-    flex-direction: column;
     bottom: 0;
-    position: sticky;
     
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#sk-ww-facebook-photo-albums{
+
+    width: 75% !important;
+    align-content: space-around !important;
+
 }
 /****************************************************************
 ************************** Classes ******************************
