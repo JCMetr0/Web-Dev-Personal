@@ -156,7 +156,6 @@ aside{
 #gallery{
     display: flex;
     background-color: #80594c;
-    height: 100em !important; 
     max-height: 500em;
 
 
@@ -180,6 +179,7 @@ aside{
 
     width: 75% !important;
     align-content: space-around !important;
+    height: fit-content !important;
 
 }
 
