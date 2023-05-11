@@ -181,7 +181,6 @@ aside{
 
     width: 50% !important;
     align-content: space-around !important;
-    height: fit-content !important;
 
 }
 
@@ -309,5 +308,4 @@ input[type=submit], [type=reset] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit], [type=reset]:hover {
     background-color: #4E7AC4;
-}
 }
