@@ -137,6 +137,23 @@ aside{
     
 }
 
+#lang{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+}
+
+#lang img{
+
+    max-height: 30px;
+    padding: 3px;
+    margin-right: 12px;
+
+}
+
 #posterimg{
 
     max-height: 40em;
