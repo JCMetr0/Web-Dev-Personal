@@ -13,6 +13,11 @@ body{
     min-height: 100vh;
 }
 
+p{
+
+    margin: 0px 2px;
+}
+
 /**********************Headers************************/
 
 h2{
@@ -147,7 +152,6 @@ aside{
 
     display: flex;
     height: fit-content;
-    background-color: #e31e24;
     flex-direction: column;
     
 
@@ -220,8 +224,9 @@ aside{
 
 .sectionleft{
 
-    text-align: left;
+    text-align: center;
     margin-left: 20px;
+    font-size: 1.25rem;
 
 }
 
@@ -269,18 +274,31 @@ aside{
 
 }
 
-/*Temp*/
-
-p{
-
-    margin: 0px 2px;
 
 
-}
 
 
 /*Contact Form - */
 /* Style inputs with type="text", select elements and textareas */
+
+form{
+
+    margin: 5px;
+    padding: 10px;
+    border: #000 solid 1px;
+    border-radius: 15px;
+    background-color: rgba(196, 196, 196, 0.863);
+
+}
+
+form label{
+
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+
 input[type=text], select, textarea {
     font-family:'Lato';
 	width: 100%; /* Full width */
@@ -302,7 +320,8 @@ input[type=submit], [type=reset] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-	margin-bottom: 2%;
+	margin-bottom: 2%; 
+    
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
