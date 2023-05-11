@@ -155,20 +155,15 @@ aside{
 
 #gallery{
     display: flex;
-    background-color: #80594c;
-    height: 100em !important; 
-    max-height: 500em;
-
-
+    height: fit-content; 
+    flex-direction: column;
 }
 
 #footer{
     display: flex;
     height: fit-content;
-    background-color: #55b3e1;
     max-height: 5em;
     bottom: 0;
-    
     flex-direction: column;
     align-content: space-around;
     justify-content: center;
@@ -176,9 +171,15 @@ aside{
     
 }
 
+#footer a{
+
+    text-decoration: none;
+
+}
+
 #sk-ww-facebook-photo-albums{
 
-    width: 75% !important;
+    width: 50% !important;
     align-content: space-around !important;
 
 }
@@ -245,6 +246,29 @@ aside{
     transition: 0.5s ;
 
 }
+
+.font24{
+
+    font-size: 24px;
+    text-align: center;
+
+
+}
+
+.elfsight-app-fc37b4c1-dd5d-4644-94a1-fa242bc86aeb{
+
+    padding-top: 50px;
+    border-top: #000 solid 1px;
+
+}
+
+
+.sk-ww-facebook-photo-albums{
+
+    margin-bottom: 25px !important;
+
+}
+
 /*Temp*/
 
 p{
@@ -284,3 +308,4 @@ input[type=submit], [type=reset] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit], [type=reset]:hover {
     background-color: #4E7AC4;
+}
