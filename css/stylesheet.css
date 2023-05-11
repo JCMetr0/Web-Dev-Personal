@@ -13,11 +13,26 @@ body{
     min-height: 100vh;
 }
 
-p{
 
-    margin: 0px 2px;
+
+p a{
+
+    color: #000;
+    text-decoration: none;
+
 }
 
+p a, p a:visited{
+
+    color: #000;
+
+}
+
+p a, p a:hover{
+
+    color: #000;
+
+}
 /**********************Headers************************/
 
 h2{
