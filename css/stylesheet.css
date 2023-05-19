@@ -132,8 +132,8 @@ aside{
 
 #nav{
 
-    height: 10em;
-    max-height: 10em;
+    height: fit-content;
+    
     
 }
 
@@ -156,12 +156,15 @@ aside{
 
 #posterimg{
 
-    max-height: 40em;
-    height: 40em;
-    background-color: #55b3e1;
+    height: 37em;
+    
     text-align: center;
     overflow: hidden;
-
+    background-image: url("/images/banners/banner1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: fadein 2s;
 }
 
 #posterimg img{
@@ -198,7 +201,7 @@ aside{
 #footer{
     display: flex;
     height: fit-content;
-    max-height: 5em;
+    max-height: fit-content;
     bottom: 0;
     flex-direction: column;
     align-content: space-around;
@@ -306,7 +309,11 @@ aside{
 
 }
 
+.pcontact{
 
+    text-align: center;
+    padding: 0 240px;
+}
 
 
 
@@ -359,4 +366,9 @@ input[type=submit], [type=reset] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit], [type=reset]:hover {
     background-color: #4E7AC4;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
