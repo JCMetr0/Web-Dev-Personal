@@ -2,6 +2,22 @@
 /****************************************************************
 ************************** Tags *********************************
 *****************************************************************/
+
+@keyframes posterAnimation {
+
+    0%, 100%{
+        background-image: url("/images/banners/banner1.png");
+    }
+    33%{
+        background-image: url("/images/banners/banner2.png");
+    }
+    66%{
+        background-image: url("/images/banners/banner3.png");
+    }
+
+
+    
+}
 html {
     scroll-behavior: smooth;
   }
@@ -160,11 +176,14 @@ aside{
     
     text-align: center;
     overflow: hidden;
-    background-image: url("/images/banners/banner1.jpg");
+
+    /*transition: background-image 2s ease-in-out;*/
+   
+    background-image: ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    animation: fadein 2s;
+    animation: posterAnimation 10s infinite;
 }
 
 #posterimg img{
