@@ -1,69 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Cakes Swindon | Contact </title>
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="/css/stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/logo/sweet cakes b&w2.png">
+    <link rel="icon" href="/images/logo/sweet cakes b&w2.png">
 </head>
 
 <body>
 
     <div id="wrapper">
+
+        <div id="lang">
+
+            <a href="/en/contact.html"><img src="/images/flags/uk.png" alt="UK flag"></a>
+            <a href="/pl/contact.html"><img src="/images/flags/pl.png" alt="Polish flag"></a>
+
+        </div>
         <div id="nav" class="containernav">
-            <a href="index.html"><img src="images/logo/sweet cakes b&w2.png" alt="Sweet Cakes Swindon Logo in Black and White" class="logo"></a>
+            <a href="/pl/index.html"><img src="/images/logo/sweet cakes b&w2.png" alt="Sweet Cakes Swindon Logo in Black and White" class="logo"></a>
             <h2>Sweet Cakes</h2>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="/pl/index.html">Home</a></li>
+                    <li><a href="/pl/index.html#about">About</a></li>
+                    <li><a href="/pl/contact.html">Contact</a></li>
+                    <li><a href="/pl/gallery.html">Gallery</a></li>
                 </ul>
             </nav>
         </div>
 
-        <h2 id="h2pgdesc" class="centerp">Contacting me</h2>
+        <h2 id="h2pgdesc" class="centerp">Kontaktowanie się ze mną</h2>
 
         <div id="contact" class="containercontact">
             <div id="paragraph">
-                <h3 class="sectionleft">Contact Information</h3>
-                <p>Welcome! If you would like to get in contact with me, you can contact me via mobile, facebook messenger, </p>
+                <p class="pcontact">Witam! gdybyście chcieli się skontaktować ze mną, to możecie skontaktować się przez telefon, Facebook messenger, whatsapp albo alternatywnie możecie wypełnić formularz pod spodem. </p>
                 <p class="sectionleft">Phone   : 07938 467626</p>
                 <p class="sectionleft">E-Mail  : agnieszka0507@hotmail.com</p>
-                <p class="sectionleft">FB      : https://www.facebook.com/sweetcakes.agnieszka</p>
-                <p class="sectionleft">Price Range : £</p>
-                <p class="sectionleft">Reviews : &#9733; 4.9/5 <br>https://www.facebook.com/sweetcakes.agnieszka/reviews</p>
+                <a href="https://www.facebook.com/sweetcakes.agnieszka/" target="_blank"><p class="sectionleft">FB      : https://www.facebook.com/sweetcakes.agnieszka</p> </a>
             </div>
 
-                <form method="post" action="mailto:agnieszka0507@hotmail.com" name="ContactForm" onsubmit="return ValidateContactForm();"> <!--Start of contact form-->
-                    <label>Full Name</label> <input type="text"  id="fname" name="fname" placeholder="E.G John Smith" >	  <br> <!--Label for first name. Includes placeholder text and also HTML 5 required attirbute-->
-                    <label>Mobile</label><input type="text" id="sname" name="sname" placeholder="E.G 0800 4480420" ><!--Label for surname. Includes placeholder text and also HTML 5 required attirbute-->
+                <form method="post" action="mailto:agnieszka0507@hotmail.com" name="ContactForm" onsubmit="return ValidateContactForm();">
+                    <label>Pełne Imię</label> <input type="text"  id="fname" name="fname" placeholder="E.G John Smith" >	  <br>
+                    <label>Telefon</label><input type="text" id="sname" name="sname" placeholder="E.G 0123 4567890" >
                     <br>
-                    <label>Email Address</label> <input type="text" id="email" name="email" placeholder="JohnSmith@example.com" ><!--Label for email. Includes placeholder text-->
+                    <label>E-Mail</label> <input type="text" id="email" name="email" placeholder="JohnSmith@example.com" >
                     <br>
-                    <label>Post Code</label> <input type="text" id="postcode" name="Post Code" placeholder="SW1W 0NY" >
+                    <label>Kod Potcztowy</label> <input type="text" id="postcode" name="Post Code" placeholder="AB1 2CD" >
                     <label>Enquiry</label> <input type="text" id="enquiries" name="Enquiries" placeholder=".............">
                     <input type="submit" value="Send" name="submit">
-                </form> <!--End of contact form-->
+                </form>
 
         </div>
 
         <div id="footer">
             <footer>
-                    <img src="images/logo/instagram.png" alt="black and white instagram logo" class="footerlogo">
-                    <img src="images/logo/facebook.png" alt="black and white facebook logo" class="footerlogo">
-                    <img src="images/logo/chat.png" alt="black and white message bubble" class="footerlogo">
-                    <img src="images/logo/phone.png" alt="black and white phone bubble" class="footerlogo">
-                    <img src="images/logo/email.png" alt="black and white envelope for email" class="footerlogo">
+                    <p class="centerp">Sweet Cakes Swindon</p>
+                    <a target="_blank" href="https://instagram.com/sweetcakes.agnieszka?igshid=YmMyMTA2M2Y="> <img src="/images/logo/instagram.png" alt="black and white instagram logo" class="footerlogo"> </a>
+                    <a target="_blank" href="https://www.facebook.com/sweetcakes.agnieszka/"><img src="/images/logo/facebook.png" alt="black and white facebook logo" class="footerlogo"> </a>
+                    <img src="/images/logo/chat.png" alt="black and white message bubble" class="footerlogo">
+                    <a href="tel:07938467626"><img src="/images/logo/phone.png" alt="black and white phone bubble" class="footerlogo"></a>
+                    <a href="mailto:agnieszka00507@hotmail.com"><img src="/images/logo/email.png" alt="black and white envelope for email" class="footerlogo"></a>
             </footer>
         </div>
     </div>
 
-    <script src="js/index.js"></script>
+    <script src="/js/index.js"></script>
 </body>
 
 </html>
