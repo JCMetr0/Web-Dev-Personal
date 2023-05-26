@@ -18,7 +18,16 @@
     }
 
 
+}
 
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 html {
@@ -30,6 +39,7 @@ body {
     background-color: whitesmoke;
     font-family: 'Lato';
     min-height: 100vh;
+    margin: 10px 15px;
 }
 
 
@@ -127,6 +137,12 @@ nav a:hover {
 /************************Body Boxes******************************/
 
 section {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
     float: left;
     margin-right: auto;
     text-align: left;
@@ -210,7 +226,14 @@ aside {
     display: flex;
     max-height: 32em;
     height: 32em;
-    background-color: #aad9ef;
+    
+}
+
+#aboutp{
+
+    font-size: 1.75rem;
+    font-family: "Signika Negative";
+    font-weight: 300;
 }
 
 
@@ -265,6 +288,15 @@ aside {
 /****************************************************************
 ************************** Classes ******************************
 *****************************************************************/
+
+.centerh{
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
 .logo {
 
     max-width: 10em;
@@ -411,12 +443,3 @@ input[type=submit],
     background-color: #4E7AC4;
 }
 
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
