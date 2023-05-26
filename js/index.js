@@ -1,6 +1,6 @@
-var BackgroundImg = ["/images/banners/banner1.jpg",
-"/images/banners/banner2.jpg",
-"/images/banners/banner3.jpg",
+var BackgroundImg = ["/images/banners/bn1.png",
+"/images/banners/bn2.png",
+"/images/banners/bn3.png",
 ];
 let bannerNum = 0;
 
